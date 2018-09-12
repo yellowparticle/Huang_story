@@ -5,5 +5,8 @@ Write a program that will ask the user what their age is and then determine if t
 
 """
 
-x = input('How old are you?')
-print ("Since you are" + str(x) + "," "and you can vote, Who are you voting for?")
+age = int(input("How old are you?"))
+if age >=18:
+    print("Make sure you exercise your XXVI amendment!")
+if age <=18:
+    print("Make sure you exercise your XXVI amendment when you turn 18!")
